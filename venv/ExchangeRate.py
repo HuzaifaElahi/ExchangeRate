@@ -32,11 +32,11 @@ for i in range (firstSheet.nrows):
     if firstSheet.cell(i, 0).value ==  "British Pound":
         CurrencyInitial == firstSheet.cell(i, 0).value
         print(CurrencyInitial)
-        print(float(firstSheet.cell(i, 1).value))
+        print(firstSheet.cell(i, 1).value)
 
     if firstSheet.cell(i, 0).value == "Bahraini Dinar":
         CurrencyInitial == firstSheet.cell(i, 0).value
         print(CurrencyFinal)
-        print(double(firstSheet.cell(i, 1).value))
+        print(firstSheet.cell(i, 1).value)
 
     #print(firstSheet.cell(i,0).value)
